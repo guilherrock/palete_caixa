@@ -1,3 +1,6 @@
 .venv
 *.csv
+*.xls
 *.xlsx
+*.pdf
+*.pptx
