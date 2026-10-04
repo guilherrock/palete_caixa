@@ -1,6 +1,7 @@
 import streamlit as st
 from paginas.login import pagina_login
 from paginas.listar_usuarios import pagina_listar
+from paginas.criar_usuario import pagina_criar
 
 
 st.set_page_config(page_title="Palete_Caixa",
@@ -47,7 +48,10 @@ else:
 
     if pagina == "Listar Usuarios":
         pagina_listar()
-             
+    elif pagina == "Criar Usuario":
+        pagina_criar()
+
+
 
 
 
