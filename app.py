@@ -59,7 +59,7 @@ else:
         pagina_deletar()
     elif pagina == "Alterar Status":
         pagina_alterar_status()
-    elif pagina =="Modelo Palete-Caixa":
+    elif pagina =="Modelo Palete_Caixa":
         pagina_otimizacao()
 
 
